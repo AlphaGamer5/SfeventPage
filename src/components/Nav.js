@@ -10,10 +10,10 @@ const Navigation = styled.header`
   border-bottom: 10px solid #222;
   z-index: 1;
   display: flex;
+  flex-direction:column;
   justify-content: space-between;
   align-items: center;
   padding: 0px 100px 0;
-  height: 140px;
   margin-bottom: 60px;
   background: #f8f8f8;
 
@@ -64,6 +64,7 @@ const Navigation = styled.header`
     overflow:hidden;
     ul {
       display: flex;
+      flex-direction: column;
       justify-content: space-between;
     }
     li {
